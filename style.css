@@ -74,7 +74,7 @@ a {
     height: 35px;
     border-radius: 50px;
     margin: 0 10rem;
-    padding: 10px;
+    padding: 10px 14px 10px 5px;
     justify-content: space-between;
     align-items: center;
     background-color: #2929539d;
@@ -83,8 +83,10 @@ a {
     font-weight: 100;
 }
 
-.navbar .logo {
-    height: 32px;
+.navbar img {
+    position: absolute;
+    top: -3px;
+    left: 3px;
 }
 
 .navbar .nav-links {
