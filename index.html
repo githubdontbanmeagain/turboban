@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Ban</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preload" href="fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="blur3"></div>
+    <div class="blur2"></div>
+    <div class="blur1"></div>
+
+    <div class="navbar">
+        <a href="https://turboban.com"><img src="images/logo-nobg.png" height="60px" alt="Turbo Ban Logo"
+                draggable="false"></a>
+        <!-- <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">What Is Turbo Ban</a>
+            <a href="#">Why Us</a>
+            <a href="#">FAQ</a>
+        </div> -->
+        <a href="https://discord.com/oauth2/authorize?client_id=1153000311267541053&scope=bot&permissions=8"
+            target="_blank"><button>Invite</button></a>
+    </div>
+    <div class="hero">
+        <div class="bubble" id="bubble-hover"></div>
+        <span class="hero-description">You decide what people should be in your server. Turbo Ban utilizes a global ban
+            list, which is used to secure your server, configured how you like it.</span>
+        <div class="cta">
+            <a href="https://discord.com/oauth2/authorize?client_id=1153000311267541053&scope=bot&permissions=8"
+                target="_blank"><button class="cta1"><i class="fa-brands fa-discord"></i> Add to Discord</button></a>
+            <a><button class="cta2">Support server</button></a>
+        </div>
+        <div class="dashboard">
+            <div class="bar">
+                <img src="images/logo-nobg.png" height="40px" alt="Turbo Ban Logo" draggable="false">
+                <span class="title">Overview</span>
+            </div>
+            <div class="main">
+                <img id="cursor" src="images/default.png" alt="Cursor" draggable="false">
+                <div class="menu">
+                    <span class="title">Admin Settings</span>
+                    <div class="item">Flag Pedophiles <div class="switch">
+                            <div class="on"></div>
+                        </div>
+                    </div>
+                    <div class="item">Flag Racists <div class="switch" id="target2">
+                            <div class="on" id="switch2"></div>
+                        </div>
+                    </div>
+                    <div class="item">Flag Doxxers <div class="switch">
+                            <div class="on"></div>
+                        </div>
+                    </div>
+                    <div class="item">Flag Scammers <div class="switch" id="target1">
+                            <div class="off" id="switch1"></div>
+                        </div>
+                    </div>
+                    <div class="item">Flag Homophobes <div class="switch">
+                            <div class="off"></div>
+                        </div>
+                    </div>
+                    <div class="item">Flag Narcissists <div class="switch">
+                            <div class="on"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <span class="title">Submit A Report</span>
+                    <div class="item">Discord ID
+                        <div class="input">Enter here...</div>
+                    </div>
+                    <div class="item">Offense <div class="input">Enter here...</div>
+                    </div>
+                    <div class="item">Video Proof <div class="input">Enter here...</div>
+                    </div>
+                    <div class="item">Explanation <div class="input">Enter here...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
