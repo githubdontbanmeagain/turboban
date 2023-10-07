@@ -53,7 +53,7 @@ function animateCursor() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    const heroHeader = "Quit dealing with bad actors. We'll do it for you. "
+    const heroHeader = "Quit dealing with bad actors. We'll do it for you."
     const targetElement = document.getElementById("bubble-hover");
 
     heroHeader.split("").map((char, idx) => {
