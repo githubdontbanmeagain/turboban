@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const charSpan = document.createElement('span');
 
         charSpan.innerText = char;
-        charSpan.setAttribute("data-index", idx.toString());
+        charSpan.setAttribute("data-index", (idx + 1).toString());
         charSpan.classList.add("hover-text");
 
         targetElement.appendChild(charSpan);
